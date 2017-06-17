@@ -1,0 +1,4 @@
+__How is the staging area different from the working directory and the repository? What value do you think it offers?__
+
+staging area is more close to the master branch and working directory allows you to work prior to the staging area with less at stake.
+
