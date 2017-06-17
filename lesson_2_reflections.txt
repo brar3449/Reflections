@@ -5,3 +5,7 @@ staging area is more close to the master branch and working directory allows you
 **How can you use the staging area to make sure you have one commit per logical change?**
 
 In the working directory you may have several edits, and they may not all be part of the same logical commit. It would be very difficult and limiting to work on only one problem at a time. So when you are ready to commit you can add it to the staging area, and then use git diff --staged to double check that the only thing in the staging area is the commit you want. Once you have commited this, there could still be several changes in the working directory, but the repository will contain the commit you made. Then you can repeat this process for other logical commits. The staging area can also hold files until you are ready to commit, and hold multiple files that are part of a single commit.
+
+**What are some situations when branches would be helpful in keeping your history organized? How would branches help?**
+
+Branches allow you to be more experimental and help you by saving time and being able to label and organize.
