@@ -13,3 +13,7 @@ Branches allow you to be more experimental and help you by saving time and being
 **How do the diagrams help you visualize the branch structure?**
 
 It is difficult to conceptualize the branches in git log when they are just text. Much easier to make a diagram
+
+**What is the result of merging two branches together? Why do we represent it in the diagram the way we do?**
+
+The two branches become one branch again but with both commit lines. The lines will be organized by time stamps, and even after the branch name is deleted you can see where the branch was created and named using git --graph
