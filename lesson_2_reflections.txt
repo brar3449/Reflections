@@ -17,3 +17,7 @@ It is difficult to conceptualize the branches in git log when they are just text
 **What is the result of merging two branches together? Why do we represent it in the diagram the way we do?**
 
 The two branches become one branch again but with both commit lines. The lines will be organized by time stamps, and even after the branch name is deleted you can see where the branch was created and named using git --graph
+
+**What are the pros and cons of Git’s automatic merging vs. always doing merges manually?**
+
+Sometimes merges will have no conflicts and in this case you will save time. Only when you have a conflict will you need to look for yourself to see how the files need to merge.
