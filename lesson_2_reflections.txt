@@ -9,3 +9,7 @@ In the working directory you may have several edits, and they may not all be par
 **What are some situations when branches would be helpful in keeping your history organized? How would branches help?**
 
 Branches allow you to be more experimental and help you by saving time and being able to label and organize.
+
+**How do the diagrams help you visualize the branch structure?**
+
+It is difficult to conceptualize the branches in git log when they are just text. Much easier to make a diagram
